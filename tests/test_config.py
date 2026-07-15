@@ -1,4 +1,4 @@
-from config import ORDERS_FILE
+from src.config import ORDERS_FILE
 
 print("Orders File Path:")
 print(ORDERS_FILE)

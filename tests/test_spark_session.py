@@ -1,4 +1,4 @@
-from spark_session import create_spark_session
+from src.spark_session import create_spark_session
 
 spark = create_spark_session()
 
