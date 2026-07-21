@@ -31,6 +31,12 @@ KAGGLE_DATA_DIR = RAW_DATA_DIR / "kaggle"
 # =====================================================
 
 ORDERS_FILE = KAGGLE_DATA_DIR / "olist_orders_dataset.csv"
+PROCESSED_ORDERS_PATH = (
+    PROJECT_ROOT /
+    "data" /
+    "processed" /
+    "orders_clean"
+)
 CUSTOMERS_FILE = KAGGLE_DATA_DIR / "olist_customers_dataset.csv"
 PRODUCTS_FILE = KAGGLE_DATA_DIR / "olist_products_dataset.csv"
 SELLERS_FILE = KAGGLE_DATA_DIR / "olist_sellers_dataset.csv"
