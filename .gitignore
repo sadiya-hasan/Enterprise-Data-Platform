@@ -19,3 +19,14 @@ spark-warehouse/
 
 # Kaggle Dataset
 data/raw/kaggle/
+
+# Processed data
+data/processed/
+
+# Spark output
+*.crc
+_SUCCESS
+
+# Python cache
+__pycache__/
+*.pyc
